@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".nuh">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="@drawable/atas">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="570dp"
+        android:background="@drawable/test">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kisah Nabi Nuh"
+                android:textSize="40dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:fontFamily="sans-serif-condensed-medium"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Nabi Nuh AS diutus oleh Allah SWT untuk menyerukan tauhid pada Bani Rasib yang pada saat itu terjerumus ke dalam kesyirikan, seperti menyembah berhala berupa patung-patung, melakukan kemungkaran dan kemaksiatan.
+
+Bani Rasib sendiri awalnya adalah kaum yang beriman kepada Allah SWT. Di antara mereka ada lima laki-laki saleh yang jadi panutan dan sangat dihormati oleh penduduk sekitar. Kelima orang tersebut bernama Wadd, Suwaa', Yaghut, Yauq, dan Nasr."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                android:text="Suatu waktu kelimanya meninggal, orang-orang Bani Rasib merasa kehilangan, sehingga mereka berinisiatif membuatkan patung atau berhala. Namun, semakin lama, perlakuan Bani Rasib semakin menyimpang, yang menjadikan patung-patung tersebut sesembahan. Bahkan, hingga beberapa generasi, mereka telah jauh dari ajaran Allah SWT.
+
+Nabi Nuh AS hidup di antara mereka untuk memberi peringatan supaya kembali beriman kepada Allah SWT. Akan tetapi, ajakan Nabi Nuh AS tidak membuahkan hasil. Bahkan mereka semakin tenggelam pada kesesatan dan kesombongan.
+
+Orang-orang Bani Rasib juga menghina dan mencemooh dakwah yang dilakukan oleh Nabi Nuh AS dan pengikutnya yang beriman. Tantangan berdakwah Nabi Nuh AS makin berat. Hingga akhirnya, Allah SWT memerintahkan Nabi Nuh AS untuk membuat bahtera atau kapal yang sangat besar."/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical"
+        android:background="@drawable/atas">
+    </LinearLayout>
+
+</LinearLayout>
